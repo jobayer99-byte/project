@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getStudents, saveStudents, getRecords, saveRecords, fmtDate } from '../utils/storage'
 
-const ADMIN_PASSWORD = 'jobayer123'
+const ADMIN_PASSWORD = 'jobayer556677@'
 
 export default function AdminPage() {
   const [authed,      setAuthed]      = useState(false)
@@ -104,6 +104,7 @@ export default function AdminPage() {
         <div className="stat"><div className="num c-green">{present}</div><div className="lbl">Present</div></div>
         <div className="stat"><div className="num c-red">{absent}</div><div className="lbl">Absent</div></div>
       </div>
+  
 
       {/* Filters */}
       <div className="filters">

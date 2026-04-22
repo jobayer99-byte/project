@@ -192,6 +192,29 @@ tr:hover td { background: #fafafe; }
 .admin-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
 .admin-title  { font-size: 18px; font-weight: 700; }
 
+/* ── Student welcome bar ── */
+.student-welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-light);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.btn-logout {
+  background: none;
+  border: 1.5px solid var(--red);
+  color: var(--red);
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn-logout:hover { background: var(--red-light); }
+
 /* ── Section title ── */
 .section-title { font-size: 15px; font-weight: 700; margin-bottom: 14px; }
 
@@ -201,3 +224,61 @@ tr:hover td { background: #fafafe; }
   .clock-time { font-size: 30px; }
   .site-nav a { padding: 7px 14px; font-size: 13px; }
 }
+
+/* ── Password show/hide ── */
+.pass-wrap { position: relative; }
+.pass-wrap input { padding-right: 44px; }
+.pass-eye {
+  position: absolute;
+  right: 12px; top: 50%;
+  transform: translateY(-50%);
+  background: none; border: none;
+  cursor: pointer; font-size: 18px;
+  line-height: 1; padding: 0;
+}
+
+/* ── Attendance option buttons ── */
+.form-label { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 10px; }
+.option-group { display: flex; gap: 12px; }
+.opt-btn {
+  flex: 1; padding: 12px;
+  border: 2.5px solid var(--border);
+  border-radius: 12px;
+  font-size: 15px; font-weight: 700;
+  cursor: pointer; background: #fafafa;
+  color: var(--muted);
+  transition: all .2s;
+}
+.opt-green.active { background: var(--green-light); border-color: var(--green); color: #15803d; }
+.opt-red.active   { background: var(--red-light);   border-color: var(--red);   color: #b91c1c; }
+.opt-btn:hover    { opacity: .85; }
+
+/* ── Work hours buttons ── */
+.hours-group { display: flex; gap: 8px; flex-wrap: wrap; }
+.hour-btn {
+  flex: 1; min-width: 44px;
+  padding: 10px 6px;
+  border: 2.5px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px; font-weight: 700;
+  cursor: pointer; background: #fafafa;
+  color: var(--muted);
+  transition: all .2s;
+}
+.hour-btn.active { background: var(--primary-light); border-color: var(--primary); color: var(--primary); }
+.hour-btn:hover  { opacity: .85; }
+
+/* ── Admin password table ── */
+.code-tag { background: #f3f4f6; padding: 2px 8px; border-radius: 6px; font-size: 13px; }
+.pass-wrap-sm { display: flex; align-items: center; gap: 6px; }
+.pass-text { font-size: 13px; font-family: monospace; letter-spacing: 1px; }
+.pass-eye-sm { background: none; border: none; cursor: pointer; font-size: 15px; padding: 0; }
+.pass-input-sm {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  font-size: 13px;
+  width: 140px;
+  outline: none;
+}
+.pass-input-sm:focus { border-color: var(--primary); }

@@ -1,0 +1,18 @@
+{
+  "students": [
+    { "id": 1,  "name": "Jobayer Ahmmed",           "username": "jobayer",   "password": "jobayer123"  },
+    { "id": 2,  "name": "MD Kawser Hossain",         "username": "kawser",    "password": "kawser123"   },
+    { "id": 3,  "name": "Lobna Khanam Rimi",         "username": "rimi",      "password": "rimi123"     },
+    { "id": 4,  "name": "Sree Niloy Chandra Mandal", "username": "niloy",     "password": "niloy123"    },
+    { "id": 5,  "name": "Md Rahat",                  "username": "rahat",     "password": "rahat123"    },
+    { "id": 6,  "name": "MD. Muktadir Rahman Souad", "username": "souad",     "password": "souad123"    },
+    { "id": 7,  "name": "Shazahan Kobir",            "username": "shazahan",  "password": "shazahan123" },
+    { "id": 8,  "name": "MD. Motasim Billah Raihan", "username": "raihan",    "password": "raihan123"   },
+    { "id": 9,  "name": "Papia Akter Mim",           "username": "mim",       "password": "mim123"      },
+    { "id": 10, "name": "Uthsab Ghosh",              "username": "uthsab",    "password": "uthsab123"   },
+    { "id": 11, "name": "MD Wasim",                  "username": "wasim",     "password": "wasim123"    },
+    { "id": 12, "name": "Md Shahriar Nafiz Rabbi",   "username": "rabbi",     "password": "rabbi123"    },
+    { "id": 13, "name": "Foysal Hossain",            "username": "foysal",    "password": "foysal123"   }
+  ],
+  "attendance": []
+}
